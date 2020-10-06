@@ -6,6 +6,7 @@
 
 packages:
     - curl
+    - ntpdate
 runcmd:
     - 'curl -o /usr/local/bin/plesk-installer https://autoinstall.plesk.com/plesk-installer'
     - chmod 755 /usr/local/bin/plesk-installer
